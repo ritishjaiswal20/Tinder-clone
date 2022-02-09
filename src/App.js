@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TinderCards from "./TinderCards";
+import SwipeButton from "./SwipeButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/">
             {/*  default route should always in bottom */}
             <TinderCards />
+            <SwipeButton />
           </Route>
         </Switch>
       </Router>
