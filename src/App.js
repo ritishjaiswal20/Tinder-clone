@@ -3,19 +3,21 @@ import Header from "./Header";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TinderCards from "./TinderCards";
 import SwipeButton from "./SwipeButton";
+import Chats from "./Chats";
 
 function App() {
   return (
     <div className="app">
-      <Header />
       <Router>
         <Switch>
           <Route path="/chat">
-            <h1>I am a chat page</h1>
+            <Header backButton="/" />
+            <Chats />
           </Route>
 
           <Route path="/">
             {/*  default route should always in bottom */}
+            <Header />
             <TinderCards />
             <SwipeButton />
           </Route>

@@ -9,19 +9,19 @@ import { IconButton } from "@mui/material";
 function SwipeButton() {
   return (
     <div className="swipebutton">
-      <IconButton className=".swipebutton_repeat">
+      <IconButton className="swipebutton_repeat">
         <ReplayIcon fontSize="large" />
       </IconButton>
-      <IconButton className=".swipebutton_close" f>
+      <IconButton className="swipebutton_close" f>
         <CloseIcon fontSize="large" />
       </IconButton>
-      <IconButton className=".swipebutton_star">
+      <IconButton className="swipebutton_star">
         <StarRateIcon fontSize="large" />
       </IconButton>
-      <IconButton className=".swipebutton_favorite">
+      <IconButton className="swipebutton_favorite">
         <FavoriteIcon fontSize="large" />
       </IconButton>
-      <IconButton className=".swipebutton_flash">
+      <IconButton className="swipebutton_flash">
         <FlashOnIcon fontSize="large" />
       </IconButton>
     </div>
