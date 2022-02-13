@@ -22,3 +22,8 @@
 .chat-timeStamp {
   color: rgb(124, 115, 115);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

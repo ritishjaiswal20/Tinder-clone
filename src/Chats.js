@@ -11,7 +11,7 @@ function Chats() {
         profilePic="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg."
       />
       <Chat
-        name="marks"
+        name="Ellen"
         message="Yo whats up"
         timeStamp="35 minutes ago"
         profilePic="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg."
